@@ -142,8 +142,8 @@ nodeSelector:
           - key: kubernetes.io/hostname
             operator: In
             values:
-            - waslaelkworker2v
-            - waslaelkworker1v
+            - "waslaelkworker2v"
+            - "waslaelkworker1v"
 
 tolerations: []
 
